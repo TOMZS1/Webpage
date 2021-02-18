@@ -1,10 +1,23 @@
 
-body section section {
-background-color: BurlyWood; /*#99ccff;*/
+body {
+/*background-color: Black; /\*#99ccff;*\/*/
 /* ebb: Looking for colors and color codes? Try the HTML color picker: https://www.w3schools.com/colors/colors_picker.asp */
-color: indigo;
+color: Yellow;
 font-family: arial, helvetica, sans-serif;
+
+background-image: url("images/Lost.jpg"); background-size: 100%;
 }
+
+figure.Banner{width: 100%;}
+
+img.TopBanner{max-width: 500px; width: 100%;}
+
+div.button{background-color: white; border-style: solid; border-width: 5px; border-color: pink; width:5%; margin: 2em; text-align:center;}
+
+/*
+section.Element{background-image: url("images/Lost.jpg"); background-size:100% 100%;}*/
+
+
 
 /* ebb: This is a comment in CSS: 
  * Notice that the properties I set on the <body> element get passed down to elements inside it. So all my text is the color and font that I set here. 
